@@ -49,8 +49,17 @@ header {
   text-align: center;
   padding: 20px;
   padding-top: 0px;
-  color: rgb(228, 238, 247);
+  color: #e7e9eb;
   text-transform: uppercase;
+}
+
+header h1::after {
+  content: "";
+  display: block;
+  width: 75%;
+  margin: 2% auto;
+  background-color: #e7e9eb;
+  height: 2px;
 }
 
 .card {
